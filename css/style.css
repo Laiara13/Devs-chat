@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 4vw;
+    text-align: center;
+}
+
+h2{
+    font-size: 2vw;
+}
