@@ -1,56 +1,80 @@
+.jersey-25-regular {
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 *{
-    margin: 0;
-    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-#salas{
-    color: #8b3e3e;
-    
-}
-.row{
-    background-color: #ffffff;
-    color: #e21515;
-    
-   
-
+body {
+    background-color: #000; /* Preto */
+    color: #fff; /* Branco */
+    margin: 0;
+    height: 100vh;
 }
 
-.col{
-    margin-left: 3vw;
-    margin-right: 3vw;
-    font-size: 1.3vw;
-    background-color: #D9D9D9;
+
+.display-4{
+    color: #007bff;
+    font-size: 8vw;
+    margin-bottom: 2vh;
+    font-family: "Jersey 25", sans-serif;
+}
+#entrar{
     color: #000000;
-    
-    /* border: #000 solid 30px; */
-    /* border-radius: 40%; */
-}
-
-.col-2{
-    margin-top: 10vh;
-    margin-left: 3vw;
-    margin-right: 3vw;
-    font-size: 1.3vw;
-    background-color: #D9D9D9;
-    color: #000000;
-}
-.h1{
-    text-align: center;
-    /* font-size: 3vw; */
-    
-      background-color: #fff;
+    font-size: 3vw;
+    margin-top: 2vh;
+    color: #ffffff;
+    background-color: #004450;
 
 }
 
-.h2{
-    font-size: 2vw;
-    text-align: center;
-   background-color: #fff;
-}
-.p{
-    font-size: 1vw;
-    text-align: center;
+
+/* HEADER ACIMA */
+
+
+.btn-light {
+    color: #000;
     background-color: #fff;
-    
+    border-color: #fff;
 }
+
+.btn-light:hover {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+}
+
+/*MEIO ACIMA */
+
+.custom-input {
+    background-color: #00363f;
+    color: #ffffff;
+    border: 2px solid rgb(0, 36, 51);
+    text-align: center;
+    border-radius: .25rem;
+    cursor: pointer;
+}
+
+.custom-input:focus {
+    outline: none; /* Remove o outline padrão */
+    box-shadow: 0 0 0 .2rem rgba(255, 255, 255, 0.25); /* Sombra de foco vermelha */
+}
+
+.custom-input::placeholder {
+    color: #ffffff; /* Cor do texto do placeholder */
+}
+
+#input{
+    height: 3vw;
+    font-size: 2vw;
+}
+
+
+
+/* INPUT ACIMA */
+
+
+
+
+

@@ -1,91 +1,75 @@
 .jersey-25-regular {
-    font-family: "Jersey 25", sans-serif;
+    
     font-weight: 400;
     font-style: normal;
   }
+
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
+/* Estilo do corpo da página */
 body {
-    background-color: #000; /* Preto */
-    color: #fff; /* Branco */
+    background-color: var(--cor-fundo-chat);
+    color: var(--cor-texto-chat);
+    font-family: Arial, sans-serif;
     margin: 0;
+    padding: 0;
+}
+
+/* Estilo do container do chat */
+.chat-container {
+    display: flex;
+    flex-direction: column;
     height: 100vh;
+    max-width: 800px;
+    margin: auto;
+    border: 1px solid var(--cor-borda-input);
+}
+
+/* Área de mensagens */
+.messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1rem;
+}
+
+/* Mensagem individual */
+.message {
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    max-width: 75%;
 }
 
 
-.display-4{
-    color: #00d9ff;
-    font-size: 8vw;
+#container_salas{
+    color: #c60909;
+    font-size: 3vh;
+    
+}
+#container_itens{
+    color: #6b28ca;
     margin-bottom: 2vh;
+
+}
+#salas{
+    color: #0dcdad;
+    margin-top: 3vh;
+    background-color: #333;
+}
+h1{
     font-family: "Jersey 25", sans-serif;
+    color: #333333;
+    font-size: 10vw;
+    
 }
-#entrar{
-    color: #000000;
-    font-size: 3vw;
-    margin-top: 2vh;
-    color: #ffffff;
-    background-color: #004450;
-
+h2{
+    font-family: "Jersey 25", sans-serif;
+    color: #333;
+    font-size: 2vw;
 }
-
-
-/* HEADER ACIMA */
-
-
-
-
-
-
-
-
-
-
-.btn-light {
-    color: #000;
-    background-color: #fff;
-    border-color: #fff;
+h3{
+    font-family: "Jersey 25", sans-serif;
+    color: #333;
+    font-size: 2vw;
 }
-
-.btn-light:hover {
-    color: #fff;
-    background-color: #000;
-    border-color: #000;
-}
-
-/*MEIO ACIMA */
-
-
-
-
-
-
-
-
-
-
-.custom-input {
-    background-color: #00363f; /* Azul */
-    color: #ffffff;
-    border: 2px solid rgb(0, 36, 51); /* Vermelho */
-    text-align: center; /* Centraliza o texto no campo */
-    border-radius: .25rem; /* Arredonda as bordas */
-    cursor: pointer; /* Cursor de pointer para indicar que é clicável */
-}
-
-.custom-input:focus {
-    outline: none; /* Remove o outline padrão */
-    box-shadow: 0 0 0 .2rem rgba(255, 255, 255, 0.25); /* Sombra de foco vermelha */
-}
-
-.custom-input::placeholder {
-    color: #ffffff; /* Cor do texto do placeholder */
-}
-
-#input{
-    color: #000;
-}
-
-
-
-/* INPUT ACIMA */
