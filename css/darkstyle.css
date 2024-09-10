@@ -7,23 +7,24 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body {
-    background-color: #fdfdfd; /* Preto */
-    color: #333333; /* Branco */
+    background-color: #000; /* Preto */
+    color: #fff; /* Branco */
     margin: 0;
     height: 100vh;
 }
 
 
 .display-4, .h1{
-    color: #333333;
+    color: #ffffff;
     font-size: 8vw;
     margin-bottom: 2vh;
     font-family: "Jersey 25", sans-serif;
 }
 #entrar{
+    color: #000000;
     font-size: 3vw;
     margin-top: 2vh;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     background-color: #004450;
 
 }
@@ -34,12 +35,12 @@ body {
 
 .btn-light {
     color: #000;
-    background-color: #333333;
-    border-color: #333333;
+    background-color: #fff;
+    border-color: #fff;
 }
 
 .btn-light:hover {
-    color: #333333;
+    color: #fff;
     background-color: #000;
     border-color: #000;
 }
@@ -48,7 +49,7 @@ body {
 
 .custom-input {
     background-color: #00363f;
-    color: #333333;
+    color: #ffffff;
     border: 2px solid #002433;
     text-align: center;
     border-radius: .25rem;
@@ -57,7 +58,7 @@ body {
 
 .custom-input:focus {
     outline: none; /* Remove o outline padrão */
-    box-shadow: 0 0 0 .2rem #24141440; /* Sombra de foco vermelha */
+    box-shadow: 0 0 0 .2rem rgba(255, 255, 255, 0.25); /* Sombra de foco vermelha */
 }
 
 .custom-input::placeholder {

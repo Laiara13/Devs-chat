@@ -14,6 +14,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #171717;
 }
 
 /* Estilo do container do chat */
@@ -52,20 +53,20 @@ body {
 
 }
 #sala{
-    color: #0dcdad;
+    color: #085649;
 }
 #salas{
     color: #0dcdad;
     margin-top: 2vh;
-    background-color: #333;
+    background-color: #d1d1d1;
 }
 #salas-1{
-    color: #000000;
+    color: #ffffff;
     margin-top: 30vh;
     width: 6vw;
     height: 7vh;
     border-radius: 50%;
-    background-color: #ee4f4f;
+    background-color: #852e2e;
     display: flex;
     align-items:center;
     text-align: center;
@@ -83,17 +84,17 @@ body {
 }
 h1{
     font-family: "Jersey 25", sans-serif;
-    color: #333333;
+    color: #d1d1d1;
     font-size: 10vw;
     
 }
 h2{
     font-family: "Jersey 25", sans-serif;
-    color: #333;
+    color: #d1d1d1;
     font-size: 2vw;
 }
 h3{
     font-family: "Jersey 25", sans-serif;
-    color: #333;
+    color: #d1d1d1;
     font-size: 2vw;
 }
